@@ -8,7 +8,7 @@ pnpm add webpack-gen-assets-plugin -D
 ## Usage
 ```ts
 // webpack.conf.js
-const WebpackGenAssetsPlugin = require('webpack-gen-assets-plugin');
+const WebpackGenAssetsPlugin = require('webpack-gen-assets-plugin').default;
 
 module.exports = {
   plugins: [
